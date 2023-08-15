@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+.footspan{
+    color: #222;
+font-family: Playfair Display;
+font-size: 16px;
+font-weight: 400;
+}
+div.foot{
+    background-color: #FFF;
+    padding: 30px;
+    /* text-align: center; */
+    font-size: 15px;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+}
+/* testimonials section */
+.testi{
+    background-color: #f2f2f2;
+}
+.testi_container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.testi_container h6{
+    color: #BDBDBD;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.h h1{
+    color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+margin: 20px 0;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+}
+.reviews .person .box{
+    margin: 0 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    /* position: relative; */
+}
+.reviews .person .box p{
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.person .detail{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+position: relative;
+left: 14px;
+}
+/* accomodations */
+
+.accomo_grid{
+    width: 80%;
+    margin: 0 auto;
+}
+.imgupper{
+    display: flex;
+}
+.imglower{
+    display: flex;
+}
+/* about  section*/
+.ab_container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.ab_pics{
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    gap: 20px;
+}
+.ab_ryt{
+    margin: 0 10px;
+    width: auto;
+}
+.ab_left  span{
+    color: #333;
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+/* .ab_ryt img{}
+    /* width: 100%; */
+    /* height: 70%; */
+
+.ab_left img{
+    /* width: 100%; */
+    /* height: auto; */
+    margin-top: 30px;
+} 
+.ab_pics p{color: #828282;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+}
+
+
+
+/* head page */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.topcntnt p{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 64px;
+font-weight: 700;
+}
+.toppage .container{
+    width: 70%;
+    margin: 0 auto ;
+    padding:10px 0 ;
+    height: 100%;
+}
+.toppage{
+    background: url(/images/image-1.png)  ;
+}
