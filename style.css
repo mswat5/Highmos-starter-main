@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: 'Poppins', sans-serif; */
-
+    list-style: none;
+    text-decoration: none;
 }
 .footspan{
     color: #222;
@@ -73,16 +74,53 @@ left: 14px;
 }
 /* accomodations */
 
-.accomo_grid{
+.accomo{
     width: 80%;
     margin: 0 auto;
 }
+.accomo_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px
+}
+.accomo_grid{
+    display: grid;
+    gap: 25px;
+    grid-template-areas: " top1 top1 top2"
+     "top3 top4 top5";
+     position: relative;
+}
+.one{
+grid-area: top1;
+position: relative;
+}
+.onetext{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    color: #FFF;
+}
+.two{
+    grid-area: top2;
+}
+.three{
+    grid-area: top3;
+}
+.four{
+    grid-area: top4;
+}
+.five{
+    grid-area: top5;
+}
+
 .imgupper{
     display: flex;
 }
 .imglower{
     display: flex;
 }
+
 /* about  section*/
 .ab_container{
   width: 80%;
@@ -143,4 +181,19 @@ font-weight: 700;
 }
 .toppage{
     background: url(/images/image-1.png)  ;
+} 
+.line{
+width: 1px;
+height: 66px;
 }
+.date_div{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.datebox{
+    display: flex;
+    background-color: #fff;
+}
+
+
